@@ -9,5 +9,6 @@
  4. Создать APP_KEY для .env - php artisan key:generate
  5. Создать базу данных и прописать параметры в .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD)
  6. Изменить права доступа к папкам: /storage и /bootstrap/cache - "chmod -R 755 /storage" и "chmod -R 755 /bootstrap/cache"
+ 7. Выполнить команду php artisan migrate --seed
 
- Для phpunit тестов необходимо создать файл .env.testing 
+ Для phpunit тестов необходимо создать файл .env.testing
