@@ -1,0 +1,120 @@
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+/* sticky footer */
+
+/* main > .container {
+  padding: 60px 15px 0;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+.card-header{
+    background-color: inherit !important;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.dropdown-item:active{
+  background-color: #603f93;
+  color: #fff;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+nav {
+  padding: 20px 0px;
+}
+
+.section_title {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0 0 50px;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+.section_title:after {
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #222;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f5f5f5;
+  color: #6c757d;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+ .item-collapse a {
+   font-size: 16px !important;
+ }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ .jumbotron {
+   padding-top: 6rem;
+   padding-bottom: 6rem;
+ }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
