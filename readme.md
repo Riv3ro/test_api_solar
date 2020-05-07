@@ -11,4 +11,11 @@
  6. Изменить права доступа к папкам: /storage и /bootstrap/cache - "chmod -R 755 /storage" и "chmod -R 755 /bootstrap/cache"
  7. Выполнить команду php artisan migrate --seed
 
- Для phpunit тестов необходимо создать файл .env.testing
+ Для phpunit тестов необходимо создать файл .env.testing и настрроить по аналогии с .env
+
+
+ **UPDATE: Vue**
+ 
+ 1. npm install
+ 2. npm run dev
+ 

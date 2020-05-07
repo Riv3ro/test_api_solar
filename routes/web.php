@@ -11,7 +11,11 @@
 |
 */
 
-Route::redirect('/', '/admin/comments');
+// Route::redirect('/', '/admin/comments');
+
+Route::get('/', function () {
+  return view('user.comments.index');
+});
 
 // admin
 Route::namespace('Admin')->group(function () {

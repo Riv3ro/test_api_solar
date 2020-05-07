@@ -1,7 +1,6 @@
                             <div class="col-md-12">
                                 <div class="card mb-4 shadow-sm">
                                     <div class="card-header">
-                                        <span style="font-weight:500">{{ $comment->user }}</span>
                                         <span class="pl-2">{{ $comment->author }}</span>
                                         <span class="pl-2"><small class="text-muted"><i class="far fa-clock"></i> {{ $comment->created_at }}</small></span>
                                     </div>
